@@ -1,0 +1,76 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff25ff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    vertical-align: middle;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.grid img{
+
+    border-radius: 2px solid #15ff19;
+    border-radius: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+   
+    
+}
+
+.bodyimg{
+    background-image: url("main2.jpeg");
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:blanchedalmond;
+    width: 310px;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+
+
+.img{
+    position: relative;
+}
+
+.images p{
+    top: 15%;
+    left: 35%;
+    position: absolute;
+    opacity:0;
+}
+
+.images:hover p{
+    opacity:1;
+}
+
+.images:hover img{
+    opacity: 0.5;
+}
+
+
+
+a:link{
+    color: darkcyan;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+.origami:hover{
+    transform: scale(1.4);
+}
